@@ -48,6 +48,12 @@
             padding-right: 10%;            
         }
         
+        .link {
+            margin-left: 70%;
+             font-family: cursive;
+            font-size: 20px;
+        }
+        
         p{
             font-family: cursive;
             font-size: 20px;
@@ -67,7 +73,9 @@
 <body>
     <h1 id = "myHeader"> Ruby on Rails</h1>
     
- 
+    <div class=link>
+     <%= link_to "Alpha blog", articles_path %>
+    </div>
     
     <%= image_tag 'img.png' %>
     
