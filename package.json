@@ -2,5 +2,7 @@
   "name": "alpha_App",
   "private": true,
   "dependencies": {}
-  "engines": { "node": "8.7.0" }
+  "engines":{
+    "node": "8.7.0"
+    },
 }
